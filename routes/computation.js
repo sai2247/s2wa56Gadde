@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
 
     storeValue=Math.random()
 
-    res.write('Math.atanh applied to '+storeValue+" is "+Math.acosh(storeValue)+"\n");
+    res.write('Math.atanh applied to '+storeValue+" is "+Math.sqrt(storeValue)+"\n");
 
     res.end('Math.sign applied to '+storeValue+" is "+Math.tan(storeValue));
 
