@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
 
     res.write('Math.atanh applied to '+storeValue+" is "+Math.acosh(storeValue)+"\n");
 
-    res.end('Math.sign applied to '+storeValue+" is "+Math.tan(storeValue));
+    res.end('Math.sign applied to '+storeValue+" is "+Math.sqrt(storeValue));
 
  });
 
